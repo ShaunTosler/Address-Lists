@@ -4,7 +4,7 @@
 #
 # Updated: 04-05-2022 20:40
 #
-ip firewall address-list/
+ip firewall address-list
 add list=IP-FW-List-DC-DigitalOcean address=5.101.96.0/21
 add list=IP-FW-List-DC-DigitalOcean address=5.101.104.0/22
 add list=IP-FW-List-DC-DigitalOcean address=37.139.0.0/19
